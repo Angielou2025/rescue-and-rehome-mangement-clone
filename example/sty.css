@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  height:2000px;
+}
+
+header{
+  background-image:url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.nav_container{
+  background-color: #fff;
+  height: 80px;
+  width:100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.logo,.Ourlogo{
+  border-radius: 50%;
+}
+
+
+nav,ul,li,a{
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  width:90px;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover{
+  color:tomato;
+}
+
+.H_span{
+  background-color: #CD9B77;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+
+.L_btn{
+  color: #fff;
+  background-color: #CD9B77;
+  padding: 5px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
